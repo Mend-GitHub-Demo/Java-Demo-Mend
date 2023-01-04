@@ -1,25 +1,6 @@
-{ 
+{
+  "settingsInheritedFrom": "Mend-GitHub-Demo/whitesource-config@main",
   "scanSettings": {
-    "configMode": "AUTO",
-    "configExternalURL": "",
-    "projectToken": "",
-    "enableLicenseViolations": "true",
-    "enableSAST" : "true",
-    "baseBranches": []
-  },
-  "checkRunSettings": {
-    "vulnerableCheckRunConclusionLevel": "failure",
-    "displayMode": "diff",
-    "useMendCheckNames": "true"
-  },
-  "issueSettings": {
-    "minSeverityLevel": "LOW",
-    "issueType": "DEPENDENCY"
-  },
-  "remediateSettings": {
-    "workflowRules": {
-      "enabled": true
-    },
-    "extends": ["github>whitesource/merge-confidence:beta"]
+    "enableSAST": "true",
   }
 }
