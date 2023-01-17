@@ -2,6 +2,7 @@ package org.t246osslab.easybuggy.core.model;
 
 
 
+
 import java.io.Serializable;
 import java.util.Date;
 
