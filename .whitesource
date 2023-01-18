@@ -1,4 +1,4 @@
-{ 
+{
   "settingsInheritedFrom": "Mend-GitHub-Demo/whitesource-config@main",
   "scanSettings": {
     "enableSAST": "true"
